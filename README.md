@@ -16,6 +16,9 @@ bindObservable(nameViewModel.firstName) { oldValue, newValue in
     println("Changed from \(oldValue)")
     nameLabel.text = newValue
 }
+
+// Change the value on the observable to trigger the binding
+nameViewModel.firstName.value = "Steve"
 ```
 
 There are a few additional options available to you.
