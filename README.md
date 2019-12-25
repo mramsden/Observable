@@ -40,4 +40,4 @@ DispatchQueue.global(qos: .background)) { oldValue, newValue in
 
 ## License
 
-This library is released under the terms of the ISC License. For more details see the [LICENSE](LICENSE) file.
+This library is released under the terms of the ISC License. For more details see the [LICENSE.md](LICENSE.md) file.
